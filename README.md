@@ -6,6 +6,6 @@ Data Preparation<br/>
 Model Building<br/>
 Training and Results<br/>
 ## Architecture
-![op](/Output/imp10.jpg)
+![op](/Output/proposed.jpg)
 ## Output
 ![op](/Output/imp10.jpg)
