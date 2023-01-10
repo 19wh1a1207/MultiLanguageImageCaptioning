@@ -1,11 +1,16 @@
 # Multi Language Image Captioning
-## Abstract 
-Image Caption Generator deals with generating captions for a given image. The semantic meaning in the image is captured and converted into a natural language. The captioning mechanism involves a tedious task that collaborates both image processing and computer vision. The mechanism must detect and establish relationships between objects, people, and animals. The aim of our project is to detect, recognize and generate worthwhile captions for a given image using deep learning. We propose an encoder-decoder framework for our model. For encoding we use CNN and for decoding we use LSTM model of RNN. To build our image caption generator model, we will be merging CNN and RNN-LSTM architectures. Our model also generates text in 133 different languages.
-## Modules
-Data Preparation<br/>
-Model Building<br/>
-Training and Results<br/>
-## Architecture
-![op](/Output/proposed.jpg)
+
+## Step by step procedure
+1. Install Spyder IDE
+2. Downloading the Flickr8k dataset from kaggle
+3. Uploading the dataset in the project path
+4. Data Preprocessing for the text dataset
+5. Tokenizing the vocabulary and saving the tokenized files to pickle files
+6. Our image dataset has 8000 images, 6000 images are for training dataset and 2000 for testing dataset
+7. We build the model where we merge our CNN-LSTM models 
+8. Training the model
+9. Testing the model
+10. We have even build UI using Tkinter where the user can interact
+
 ## Output
 ![op](/Output/imp10.jpg)
